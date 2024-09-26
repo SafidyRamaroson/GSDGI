@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gestion Stock
 
-## Getting Started
+GS est une application web de gestion de stock construite avec Next.js, TailwindCSS et Zustand pour la gestion d'état.
 
-First, run the development server:
+## Prérequis
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre machine :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (version 18.x ou plus récente)
+- [npm](https://www.npmjs.com/) (généralement inclus avec Node.js)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/gestion_stock.git
+   cd gestion_stock
 
-## Learn More
+2. Installez les dépendances :
+   ```bash
+   npm install
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
+Voici les scripts disponibles pour démarrer et gérer l'application :
+ - npm run dev : Démarre l'application en mode développement.
+ - npm run build : Génère une version de production.
+ - npm run start : Lance l'application en production.
+ - npm run lint : Vérifie la qualité du code avec ESLint.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Utilisées
+ - Next.js (version 14.2.13) : Framework React pour le rendu côté serveur et les applications full-stack.
+ - React (version 18) : Bibliothèque JavaScript pour la construction d'interfaces utilisateur.
+ - Zustand (version 5.0.0-rc.2) : Gestion de l'état avec un store léger.
+ - TailwindCSS (version 3.4.1) : Framework de styles utilitaire pour des interfaces modernes.
+ - Prisma (version 5.20.0) : ORM pour interagir avec la base de données.
+ - Radix UI et Lucide Icons : Icônes et composants pour une UI réactive.
+ - TypeScript (version 5.6.2) : Superset de JavaScript pour typage statique.
 
-## Deploy on Vercel
+## Configuration ESLint
+Le projet utilise ESLint pour assurer une qualité de code optimale avec la configuration fournie par Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
