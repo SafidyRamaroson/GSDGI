@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
           </button>
           <button
             type="button"
-            className="bg-green-200 text-green-700 font-bold px-4 py-2 rounded-md border-[1px] border-green-400"
+            className="bg-[#068e8c] text-white font-bold px-4 py-2 rounded-md border-[1px] border-green-400"
             onClick={() => alert("Submit Info")}
           >
             Confirmation
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
           </button>
           <button
             type="button"
-            className="bg-green-200 text-green-700 font-bold px-4 py-2  rounded-md border-[1px] border-green-400"
+            className="bg-[#068e8c] text-white font-bold px-4 py-2  rounded-md border-[1px] border-green-400"
             onClick={() => handleNextStep()}
           >
             Suivant
@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
           </button>
           <button
             type="button"
-            className="bg-green-200 text-green-700 font-bold px-4 py-2  rounded-md border-[1px] border-green-400"
+            className="bg-[#068e8c] text-white font-bold px-4 py-2  rounded-md border-[1px] border-green-400"
             onClick={() => handleNextStep()}
           >
             Suivant
