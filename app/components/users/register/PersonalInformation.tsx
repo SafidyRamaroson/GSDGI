@@ -3,11 +3,10 @@ import { useStepStore } from "@/store/useStepStore"
 
 export const PersonnalInformation:React.FC = ({}) => {
 
-    const handleNextStep = useStepStore((state) => state.handleNextStep)
     return (
          <div className="flex flex-col justify-center items-center">
       <div className="flex flex-row">
-        <p className="my-4 font-bold text-green-700 text-2xl">
+        <p className="my-4 font-bold text-[#068e8c] text-2xl">
           Information personnelle
         </p>
       </div>
